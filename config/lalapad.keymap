@@ -221,11 +221,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &kp ASTRK     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp AMPERSAND  &kp AT            &kp DOLLAR    &trans
-&trans     &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS        &kp TILDE      &kp HASH          &kp COLON     &kp STAR
-&trans     &kp KP_EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER        &kp CARET      &kp SINGLE_QUOTE  &kp QUESTION  &kp EXCL
-&trans     &trans        &kp NUMBER_0  &trans        &trans        &kp CAPS              &trans                 &kp DELETE       &trans         &trans            &trans        &trans
-                         &trans        &trans        &trans        &trans                &trans                 &trans           &trans         &trans
+&kp TILDE  &kp DOUBLE_QUOTES     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp CARET      &kp LEFT_BRACKET  &kp DOLLAR    &trans
+&trans     &kp COLON             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS       &kp HASH          &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES
+&trans     &kp EQUAL             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LS(0x87)        &kp CARET      &kp AMPERSAND     &kp QUESTION  &kp EXCL
+&trans     &trans                &kp NUMBER_0  &trans        &trans        &kp CAPS              &trans                 &kp DELETE       &trans         &trans            &trans        &trans
+                                 &trans        &trans        &trans        &trans                &trans                 &trans           &trans         &trans
             >;
         };
 
