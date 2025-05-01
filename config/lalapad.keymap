@@ -263,7 +263,7 @@
                 &kp LA(RIGHT)  &trans     &kp LA(LEFT)  &trans  &trans  &trans  &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&scroll_right_left>;
+            sensor-bindings = <&scroll_down_up>, <&scroll_left_right>;
         };
 
         SCROLL_R_LAYER {
