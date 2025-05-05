@@ -235,7 +235,7 @@
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7     &kt F8                &kp F9     &kp F10           &kp F11            &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDER  &kp MINUS             &kp TILDE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE
 &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp COLON  &kp AT            &kp RIGHT_BRACKET  &kp RIGHT_BRACE
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans                &trans     &trans            &kp BACKSLASH      &kp UNDER
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans                &trans     &trans            &kp BACKSLASH      &kp LS(0x87)
                 &trans  &trans  &trans  &trans  &trans     &trans                &trans     &trans
             >;
 
