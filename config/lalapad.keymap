@@ -236,11 +236,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&none  &kp JP_PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none     &trans  &trans      &trans  &trans  &trans  &trans
-&none  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none     &trans  &trans      &trans  &trans  &trans  &trans
-&none  &kp JP_EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none     &trans  &trans      &trans  &trans  &trans  &trans
-&none  &none         &kp NUMBER_0  &trans        &trans        &kp CAPS  &trans  &kp DELETE  &trans  &trans  &trans  &trans
-                     &trans        &trans        &trans        &trans    &trans  &trans      &trans  &trans
+&none  &kp JP_PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none     &trans     &trans          &trans          &trans           &trans  &trans
+&none  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none     &trans     &trans          &kp UP_ARROW    &trans           &trans  &trans
+&none  &kp JP_EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none     &kt LANG2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&none  &none         &kp NUMBER_0  &trans        &trans        &kp CAPS  &kp LANG1  &kp GLOBE       &trans          &trans           &trans  &trans
+                     &trans        &trans        &trans        &trans    &trans     &trans          &trans          &trans
             >;
         };
 
