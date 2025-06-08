@@ -275,7 +275,7 @@
             bindings = <
 &trans            &trans  &trans           &trans          &trans          &trans        &trans  &trans  &trans     &trans     &trans     &trans
 &kp LEFT_CONTROL  &trans  &mkp RCLK        &mkp MCLK       &mkp LCLK       &trans        &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo 5
-&trans            &kp Z   &kp X            &kp C           &kp V           &trans        &trans  &trans  &mkp MB4   &mkp MB5   &trans     &trans
+&trans            &kp Z   &kp X            &kp C           &kp V           &trans        &trans  &trans  &mkp MB4   &mkp MB5   &trans     &mo 5
 &trans            &trans  &trans           &trans          &trans          &trans        &trans  &trans  &trans     &trans     &trans     &trans
                           &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp UP_ARROW  &trans  &trans  &trans     &trans
             >;
