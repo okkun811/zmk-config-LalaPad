@@ -215,6 +215,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <46 47>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
