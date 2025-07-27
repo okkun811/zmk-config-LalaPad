@@ -222,6 +222,11 @@
             bindings = <&kp DELETE>;
             key-positions = <46 47>;
         };
+
+        backspace {
+            bindings = <&kt BACKSPACE>;
+            key-positions = <43 44>;
+        };
     };
 
     keymap {
