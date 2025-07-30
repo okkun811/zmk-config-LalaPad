@@ -224,7 +224,7 @@
         };
 
         backspace {
-            bindings = <&kt BACKSPACE>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <43 44>;
         };
     };
