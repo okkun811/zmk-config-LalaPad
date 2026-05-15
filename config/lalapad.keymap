@@ -261,7 +261,7 @@
         SYMBOL_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7         &kt F8         &kp F9        &kp F10        &kp F11          &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7         &kp F8         &kp F9        &kp F10        &kp F11          &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL   &kp MINUS      &kp JP_TILDE  &kp JP_AT      &kp JP_LBRACE    &kp JP_RBRACE
 &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LPAREN  &kp JP_RPAREN  &kp JP_PLUS   &kp JP_DQUOTE  &kp JP_LBRACKET  &kp JP_RBRACKET
 &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans         &trans        &trans         &kp BACKSLASH    &kp JP_UNDERSCORE
